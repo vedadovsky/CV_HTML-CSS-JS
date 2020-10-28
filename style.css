@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.resume .lijevo {
+    width: 280px;
+    background: #1F2255;
+}
+
+.bottom-text {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.resume .lijevo .slika {
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.resume .lijevo .slika img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.resume .lijevo .resume_content {
+    padding: 0 20px;
+}
+
+.resume .title {
+    margin-bottom: 20px;
+}
+
+.resume .lijevo .bold {
+    color: #fff;
+}
+
+.resume .lijevo .regular {
+    color: #1F2255;
+}
+
+.resume .item {
+    padding: 25px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.resume .DP {
+    padding: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.resume .lijevo .item:last-child,
+.resume .resume_right .item:last-child {
+    border-bottom: 0px;
+}
+
+.resume .resume_right .naslov {
+    font-weight: 700;
+    font-size: 28px;
+    color: #1F2255;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.resume .resume_right .strana {
+    text-transform: uppercase;
+    text-align: left;
+    color: #1F2255;
+    font-size: 18px;
+}
+
+.kasika {
+    font-size: 13px;
+    text-align: justify;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+}
+
+h4::after {
+    content: '';
+    flex: 1;
+    margin-right: 0;
+    margin-left: 1rem;
+    height: 2px;
+    background-color: #1F2255;
+}
+
+.resume .lijevo ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.resume .lijevo ul li:last-child {
+    margin-bottom: 0;
+}
+
+.resume .lijevo ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #1F2255;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imena {
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.under-word {
+    text-transform: uppercase;
+    color: #1F2255;
+    font-size: small;
+}
+
+.stil {
+    color: #1F2255;
+    font-size: 16px;
+}
+
+.resume .lijevo .DP ul li .icon {
+    font-size: large;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon a i {
+    color: #1F2255;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.data a p {
+    color: #fff;
+}
+
+.resume .lijevo ul li .data {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.resume .lijevo .word_style ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #1F2255;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume .lijevo .word_style ul li .language {
+    color: white;
+    width: 25%;
+}
+
+.resume .lijevo .word_style ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #1F2255;
+    position: relative;
+}
+
+.resume .lijevo .word_style ul li .skill_per {
+    width: 15%;
+}
+
+.resume .lijevo .word_style ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+.resume .lijevo .resume_social .semi-bold {
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.resume .lijevo .resume_social .data {
+    position: center;
+}
+
+.resume .lijevo .resume_social ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+.resume .resume_right .bold {
+    color: #1F2255;
+}
+
+.resume .resume_right .work ul,
+.resume .resume_right .education ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume .resume_right ul li {
+    position: relative;
+}
+
+.resume .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #1F2255;
+}
+
+.resume .resume_right ul li .info {
+    margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+    margin-bottom: 0;
+}
+
+.resume .resume_right .work ul li:before,
+.resume .resume_right .education ul li:before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #1F2255;
+    top: 5px;
+    left: -25px;
+}
+
+.resume .resume_right .work ul li:after,
+.resume .resume_right .education ul li:after {
+    content: "";
+    position: absolute;
+    height: 115px;
+    background: #1F2255;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+}
+
+.resume .resume_right .work ul .prvi:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 222px;
+    background: #1F2255;
+}
+
+.resume .resume_right .work ul .drugi:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 460px;
+    background: #1F2255;
+}
+
+.resume .resume_right .work ul .treci:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 220px;
+    background: #1F2255;
+}
+
+.resume .resume_right .resume_hobby ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #1F2255;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+    font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: #1F2255;
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+    display: none;
+}
+
+
+/*Slider*/
+
+.site-slider {
+    position: relative;
+}
+
+.position-top {
+    position: absolute;
+    top: 45%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next {
+    margin-left: 50%;
+    background-color: #091a5d;
+    border-radius: 50%;
+    color: white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 3;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next {
+    opacity: 0.9;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.slick-dots {
+    top: 100px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 16px 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    z-index: 0;
+}
+
+.slick-dots li {
+    margin: 0 0.6rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+}
+
+.slick-dots .slick-active button {
+    transform: scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.205);
+}
+
+.size {
+    height: 100%;
+    width: 100%;
+}
+
+.size img {
+    padding-left: 75px;
+    height: 100px;
+}
